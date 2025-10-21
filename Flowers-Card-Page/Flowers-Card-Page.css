@@ -1,0 +1,34 @@
+.card{
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: box-shadow 1s ease-in 0s ;
+    border: 2px solid black;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#flowers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#desc{
+    font-size: 20px;
+}
+
+#heading{
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #FADCD9;
+    color: #A2192B;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0px 12px 20px black;
+}
